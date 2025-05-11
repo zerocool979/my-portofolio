@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <meta name="description" content="Portofolio bilal - CyberSecurity - Pentestting - BugBounty. Check out the latest projects and get in touch for collaborations.">
+ 
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts - Contoh: Montserrat & Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome untuk Ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Favicon (Ganti dengan ikon Anda) -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Meta tags Open Graph (Opsional, untuk sharing di media sosial) -->
+    <!-- <meta property="og:title" content="[Nama Anda] - Portofolio">
+    <meta property="og:description" content="[Deskripsi singkat untuk sharing]">
+    <meta property="og:image" content="[URL gambar profil atau proyek unggulan]">
+    <meta property="og:url" content="[URL portofolio Anda]">
+    <meta property="og:type" content="website"> -->
+
+</head>
+<body>
+
+    <!-- Header & Navigasi -->
+    <header class="site-header">
+        <div class="container">
+            <div class="site-title">
+                <a href="#hero">My Portofolio</a>
+            </div>
+            <nav class="site-nav">
+                <ul>
+                    <li><a href="#about">about me</a></li>
+                    <li><a href="#portfolio">latest project</a></li>
+                    <li><a href="#skills">skill</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <p class="intro">Introduction</p>
+                <h1>bilal</h1>
+                <p class="tagline">CyberSecyrity  | Pentesting | BugBounty | AI Dev</p>
+                <p>Hello everyone, let me introduce myself, I am bilal, a 2nd semester student majoring in Informatics Engineering. Right now I am busy with assignments and materials.</p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="cta-button primary">View My Projects</a>
+                    <a href="#contact" class="cta-button secondary">Contact me</a>
+                </div>
+            </div>
+            <!-- Opsional: Gambar profil -->
+            <div class="hero-image">
+                <img src="images\pp.jpg" alt="Foto Profil">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-grid">
+                <div class="about-image">
+                     <img src="images/aboutme.jpg" alt="My Picture">
+                </div>
+                 <div class="about-content">
+		    <p>I am Bilal, a 2nd semester Informatics Engineering student who has a deep interest in cybersecurity, especially Red Team Operations, penetration testing, and bug bounty. I started my journey autodidactically, exploring various topics ranging from networking, exploit development, bypass authentication, to Active Directory exploitation.<p>
+                    <p>In my learning process, I have experimented directly with various tools such as Proxychains, Nmap, Burp Suite, Metasploit, and various Windows exploitation methods such as SMB brute force, Kerberos attacks, LSASS exploit, and lateral movement techniques. I also developed an interest in AI development and humanoid robot projects, where I built a client-server system and sensor-based control as a background service on Android.</p>
+                    <p>I highly value hard work, technical exploration, and consistency in learning. In every project, I always try to combine technical and philosophical approaches so that the resulting solution is not only technically strong, but also humanly relevant. Outside of the technical field, I am also active in digital campaign design, video clip production, and creating educational and historical content based on AI.</p>
+                    <p>My vision for the future is to become a Red Team specialist who is able to create sophisticated attack simulations, contribute to improving organizational cyber defenses, and build tools and frameworks that are useful for the ethical hacker community in Indonesia.</p>
+                     <!-- Opsional: Link untuk mengunduh CV -->
+                    <!-- <a href="[Link ke file CV Anda]" class="cta-button secondary" download><i class="fas fa-download"></i> Unduh CV</a> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <h2>My Latest Project</h2>
+            <div class="portfolio-grid">
+                <!-- Contoh Item Portofolio 1 -->
+                <div class="portfolio-item card">
+                    <img src="images/projek1.png" alt="Gesture Control">
+                    <div class="portfolio-info">
+                        <h3>AI Gesture Control For Robot Humanoid</h3>
+                        <p class="category">Python Programming | AI (Artificial Intellegence) | Computer Vision</p>
+                        <p>This project is part of my experiment in developing gesture-based humanoid robot control using Python Programming, AI and computer vision. The system uses a hand tracking model (MediaPipe) to recognize hand movements in real-time through the camera, which is then translated into robot control commands. The focus of this project is on creating a lightweight gesture recognition system, can be run locally (without cloud), and can be further developed as a remote control for robots controlled by IMU sensors.</p>
+                        <a href="[Link ke Detail Proyek / Website Live]" class="project-link" target="_blank">view project<i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Contoh Item Portofolio 2 -->
+                <div class="portfolio-item card">
+                    <img src="images/projek2.jpg" alt="Bug Bounty & Exploitation">
+                     <div class="portfolio-info">
+                        <h3>Bug Bounty Recon & Exploitation</h3>
+                        <p class="category">Ethical Hacking | Bug Bounty</p>
+                        <p>Personal project as part of career development in bug bounty world. I did reconnaissance, subdomain enumeration, and exploit loopholes such as IDOR, XSS, and subdomain takeover against Bugcrowd and HackerOne targets. One of the main achievements was successfully finding sensitive information vulnerability in API endpoint of education startup, and also subdomain takeover.</p>
+                        <a href="[Link ke Detail Proyek / Behance / Dribbble]" class="project-link" target="_blank">view project<i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Contoh Item Portofolio 3 -->
+                <div class="portfolio-item card">
+                    <img src="images/projek3.png" alt="Red Team Cyber-AI Assistant">
+                     <div class="portfolio-info">
+                        <h3>Red Team Cyber-AI Assistant</h3>
+                        <p class="category">Cybersecurity | AI | Read Teaming</p>
+                        <p>A combination project between AI development and Red Team based penetration testing. I built a personal AI assistant to automate some of the Red Team tasks such as enumeration, bypass, and reporting the exploit results into a presentation-ready format. This project also connects to SMB brute force system, WinRM, and Red Team Tools framework via LAN.</p>
+                        <a href="[Link ke Artikel / Publikasi]" class="project-link" target="_blank">view project<i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Tambahkan lebih banyak portfolio-item sesuai jumlah proyek Anda -->
+                <!-- Pastikan untuk mengganti src gambar, alt teks, judul, kategori, deskripsi, dan link -->
+
+            </div>
+            <div class="text-center" style="margin-top: 40px;">
+                 <a href="[Link ke halaman proyek lainnya atau profil platform]" class="cta-button secondary">View All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2>My Skill</h2>
+            <div class="skills-grid">
+                <!-- Contoh Item Skill -->
+                <div class="skill-item card">
+                    <i class="fab fa-html5"></i> <!-- Ganti ikon dan teks -->
+                    <h3>HTML5</h3>
+                </div>
+                 <div class="skill-item card">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                </div>
+		 <div class="skill-item card">
+		    <i class="fab fa-python"></i>
+		    <h3>Python</h3>
+		</div>
+                 <div class="skill-item card">
+                    <i class="fab fa-terminal"></i>
+                    <h3>Linux & Command Line</h3>
+                </div>
+                 <div class="skill-item card">
+                    <i class="fab fa-toolbox"></i>
+                    <h3>Linux Tools</h3>
+                </div>
+                <!-- Tambahkan lebih banyak skill-item sesuai skill Anda -->
+                 <!-- Gunakan ikon dari Font Awesome atau gambar/SVG kustom -->
+            </div>
+        </div>
+    </section>
+
+     <section id="testimonials" class="testimonials-section">
+         <div class="container">
+             <h2>What Do My Clients Say?</h2>
+             <div class="testimonials-grid">
+                 <div class="testimonial-item card">
+                     <p>"Suatu kehormatan berkolaborasi dengan anda"</p>
+                     <div class="customer-info">
+                         <img src="images/client1.jpg" alt="Prof. Antonio & Friends">
+                         <div>
+                             <p class="customer-name">Prof. Antonio & Friends</p>
+                             <p class="customer-title">Owner of Tazkia University and its Group</p>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </section> -->
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Contact me with the information below</p>
+            <div class="contact-info-grid">
+                <div class="contact-info-item card">
+                     <i class="fas fa-envelope"></i>
+                     <h3>Email</h3>
+                     <p><a href="mailto:bilalfarhani635@gmail.com">bilalfarhani635@gmail.com</a></p>
+                </div>
+                 <div class="contact-info-item card">
+                     <i class="fas fa-phone-alt"></i>
+                     <h3>Phone</h3>
+                     <p><a href="https:/wa.me/+6289531885806">089531885806</a></p>
+                 </div>
+            </div>
+
+            <!-- Opsional: Formulir Kontak (Membutuhkan Backend!) -->
+            <!-- <div class="contact-form-container card">
+                 <h3>Kirim Pesan Langsung</h3>
+                 <form id="contact-form" action="[URL endpoint backend atau layanan form Anda]" method="POST">
+                     <div class="form-group">
+                         <label for="name">Nama:</label>
+                         <input type="text" id="name" name="name" required>
+                     </div>
+                      <div class="form-group">
+                         <label for="email">Email:</label>
+                         <input type="email" id="email" name="email" required>
+                     </div>
+                      <div class="form-group">
+                         <label for="subject">Subjek:</label>
+                         <input type="text" id="subject" name="subject">
+                     </div>
+                      <div class="form-group">
+                         <label for="message">Pesan:</label>
+                         <textarea id="message" name="message" rows="6" required></textarea>
+                     </div>
+                     <button type="submit" class="cta-button primary">Kirim Pesan</button>
+                 </form>
+            </div> -->
+
+             <div class="social-links">
+                 <a href="https://linkedin.com/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                 <a href="https://instagram.com/all_about_elll" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                 <a href="https://github.com/zerocool979/" target="_blank" aria-label="Github"><i class="fab fa-github"></i></a>
+
+             </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2025 Bilal. Made with <i class="fas fa-heart"></i>.</p>
+            <div class="footer-links">
+                 <!-- Opsional: Link Kebijakan Privasi jika ada -->
+                 <!-- <a href="#">Kebijakan Privasi</a> -->
+            </div>
+        </div>
+    </footer>
+
+    <!-- Link file JavaScript -->
+    <script src="index.js"></script>
+</body>
+</html>
